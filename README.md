@@ -1,17 +1,37 @@
-# CV base
+<div align="center">
+<h1 align="center">Oh, So Simple HTML CV!</h1>
 
-Podstawa projektu do pobrania. Pełen tutorial z opisem na blogu Fly Nerd: CV w HTML / CSS
+<img alt="Simple HTML CV" src="https://github.com/ritaly/HTML-CSS-CV-demo/blob/master/img/resume_icon.png" />
 
-### Zakres
+HTML and CSS template for your outstanding job applications
+</div>
 
-Celem projektu jest wykorzystanie stworzenie strony www własnego CV za użyciem HTML i CSS.
+## What is Oh, So Simple HTML CV?
 
-### Z tym tutorialem:
-- wykorzystasz znaczniki HTML5
-- ostylujesz stronę za pomocą CSS
-- stworzysz prosty, czytelny i estetyczny layout
-- wykorzystasz flexbox do tworzenia układu strony
-- przystosujesz stronę pod urządzenia mobilne (RWD)
+**Oh, So Clear HTML CV!** is simple, clear and aesthetic **Resume** template for beginners to better understand HTML5 and CSS basics by example.
 
-### Wymagania
-Do wykonania zadań konieczna jest podstawowa znajomość HTML i CSS!
+**This page will help you:**
+
+* create legible *CV (Curriculum Vitae)* / *Resume*
+* create website with HTML5 and CSS
+* create CSS flexbox layout
+* implement good-looking responsive layouts
+* use Font Awesome 5 for social media
+
+This repo contains the final source code for free tutorial.
+
+Full explanation and task you can find in Polish: [CV HTML / CSS](https://www.flynerd.pl/2018/07/stworz-cv-w-html-i-css-krok-po-kroku.html)
+
+## Demo
+Check demo here: [Ocat CV](https://ritaly.github.io/HTML-CSS-CV-demo/)
+
+## Credits
+Please feel free to copy any part of this repo for your own uses.
+
+**[Fly Nerd](https://www.flynerd.pl/)** - I will be happy if you mention **FlyNerd** as an inspiration.
+
+Thanks:
+
+- **Raleway** - set of free fonts thanks to Matt McInerney, Pablo Impallari, Rodrigo Fuenzalida, Igino Marini
+
+- **Freepik** - title icon made by [Freepick](http://www.freepik.com), licensed: CC 3.0
