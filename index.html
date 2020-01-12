@@ -1,64 +1,217 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="UTF-8">
-		<title>My CV website</title>
-		<meta name="description" content="your description">
-		<meta name="author" content="your name">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" type="text/css" href="style.css">
-	</head>
+<head>
+  <meta charset="UTF-8">
+  <title>CV</title>
+  <meta name="description" content="simple CV example created with HTML and CSS">
+  <meta name="author" content="Krystian Plackowski">
+  <link rel="icon" href="./img/favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
 
-	<body>
-		<header>
-			<div>
-				<img src="img/avatar.jpg" />
-			</div>
-			<h1>first second name</h1>
-			<section>
-				<p>Your story goes here... e.g. Hello! I am xyz. I work as web designer and front-end developer.
-				I have passion for pixel perfect, minimal and easy to use interfaces.</p>
-			</section>
-		</header>
-		<main>
-			<!--Courses -->
-			<section>
-				<h3>Courses & Workshops</h3>
-				<article class='course'>
-					<div class='title'>
-						CodeIsAwsome - My First Course
-					</div>
-					<div class="descrition">
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis non iaculis mi, vel lacinia odio. Nam eget nisi in ante fermentum consectetur. Vivamus metus dui, placerat vel arcu eu, interdum faucibus magna.</p>
-					</div>
-				</article>
-			</section>
-			<!-- Skilss -->
-			<section>
-				<h3>Skills</h3>
+<body>
+  <header>
+    <div>
+      <img src="./img/goldenline.jpg" />
+    </div>
+    <h1>Krystian Plackowski</h1>
+    <section>
+      <p>Hello! I am Krystian Plackowski. I'm a self-learning Data Scientist with C++ past and a lot of ideas to implement. I'm constantly attending new courses and looking for some place to fulfill myself. My programming experience started in 2011 when my main language was C++. In 2016 I learned python, which I greatly expanded in 2019.</p>
+      <p><a href="https://github.com/KrystianPlackowski" target="_blank">
+        <i class="fab fa-github-alt"></i>
+      </a>https://github.com/KrystianPlackowski</p>
+      <p><a href="https://www.spoj.com/users/bkrystian" target="_blank">
+        <i class="fab fa-stripe-s"></i>
+      </a>https://www.spoj.com/users/bkrystian</p>
+      <p>kpchris20@gmail.com</p>
+      <p>tel. +48 720 774 899</p>
+    </section>
+  </header>
+  <main>
+    <section>
+      <h3>Courses taken</h3>
+      <article class='course'>
+        <div class='title'>
+          <h4>edX: Python for Data Science (UCSanDiego) </h4>
+        </div>
+        <div class="descrition">
+          <p>Introduction to data science with pandas and scikit-learn.</p>
+        </div>
+      </article>
+      <article class='course'>
+        <div class='title'>
+          <h4>edX: Mashine Learning Fundamentals (UCSanDiego) </h4>
+        </div>
+        <div class="descrition">
+          <p>Introduction to various classification methods on implementation side.</p>
+        </div>
+      </article>
+      <article class='course'>
+        <div class='title'>
+          <h4>edX: Deep Learning Fundamentals with Keras (IBM) </h4>
+        </div>
+        <div class="descrition">
+          <p>Neural Networks for regression, Convolution Neural Networks, Deep Neural Networks (VGG16).</p>
+        </div>
+      </article>
+      <article class='course'>
+        <div class='title'>
+          <h4>Kaggle: geospacial analysis </h4>
+        </div>
+        <div class="descrition">
+	<p>Interactive maps, geoencoding, methods of spacial visualisation.</p>
+        </div>
+      </article>
+  
+      <article class='course'>
+        <div class='title'>
+          <h4>edX: Computer Vision and Image Analysis (Microsoft)</h4>
+        </div>
+        <div class="descrition">
+          <p>Image manipulation methods and object-detection algorithm.</p>
+        </div>
+      </article>
+      <article class='course'>
+        <div class='title'>
+          <h4>edX: Introduction to Artificial Inteligence (Microsoft)</h4>
+        </div>
+        <div class="descrition">
+          <p>Introduction to Microsoft Azure Platform Cognitive Services: Computer Vision API, Face API, Custom Vision.</p>
+        </div>
+      </article>
+   </section>
+   <section>
+      <h3>Courses partly completed (for now)</h3>
+      <article class='course'>
+        <div class='title'>
+          <h4>edX: Big Data Analysis Using Spark (UCSanDiego) </h4>
+        </div>
+        <div class="descrition">
+          <p>Pyspark basics: groupByKey, reduceByKey, map, flatMap, reduce, collect.</p>
+        </div>
+      </article>
+      <article class='course'>
+        <div class='title'>
+          <h4>edX: CS 50's Web Programming with Python and JavaScript (Harvard)</h4>
+        </div>
+        <div class="descrition">
+          <p>Git, HTML, Flask, SQL.</p>
+        </div>
+  
+    </section>
+     <section>
+      <h2>Projects</h2>
+      <article>
+	      <h3><p style="color:#509e98"><strong>Apartments data parser</strong></p></h3>
+	      <div style="text-indent: 50px">
+	      <p>Extract data from flat advertisement web site and analyse it. Consists of 4 parts:</p>
+	      </div>
+          <ol style="padding-left: 100px" class="job-description">
+            <li>Extract data using requests, beatifulsoup4.</li>
+            <li>Encode travel time with route API.</li>
+            <li>Show relations between location, travel time, apartment's size and price.</li>
+	    <li>Develop scikit-learn model to predict the price.</li>
+          </ol>
+        </div>
+      </article>
+      <article>
+	      <h3><p style="color:#509e98"><strong>Air pollution analysis</strong></p></h3>
+	      <div style="text-indent: 50px">
+	      <p>Regression analysis of pollution level in air in comparission with wind speed, temperature, humidity and cloud cover.</p>
+	<p><strong>Involved: </strong>pandas, matplotlib, seaborn</p>
+	      </div>
+        </div>
+      </article>
+      <article>
+	      <h3><p style="color:#509e98"><strong>Face correlator</strong></p></h3>
+	      <div style="text-indent: 50px">
+	      <p>Display similarity matrix between all faces found in a batch of images.</p>
+	<p><strong>Involved: </strong>Microsoft Azure's Face API</p>
+	      </div>
+        </div>
+      </article>
 
-				... put your code here ...
 
-			</section>
-			<!-- Education -->
-			<section>
-				<h3>...some title...</h3>
-	      <article>
-	        <div class='school'>
-	          <span>2015-2018</span> Octocats tech academy
-	        </div>
-	        <div class="descrition">
-	          Bechelor Degree of Octorobotics
-	        </div>
-	      </article>
-			</section>
-			<!-- Experience / Projects / Portfolio ... -->
+    </section>
 
-			...put more sections here ...
+    <section>
+      <h3>Skills</h3>
+      <div class='skills'>
+        <div class='column'>
+          <h4>Good knowledge</h4>
+          <ul>
+            <li>pandas</li>
+            <li>scikit-learn</li>
+            <li>geopandas</li>
+            <li>matplotlib</li>
+            <li>jupyter</li>
+	    <li>Linux</li>
+	    <li>C/C++</li>
+          </ul>
+        </div>
+        <div class='column'>
+          <h4>Medium knowledge</h4>
+          <ul>
+            <li>keras</li>
+            <li>requests</li>
+            <li>flask</li>
+            <li>Git</li>
+            <li>API</li>
+	    <li>Vim</li>
+	    <li>Bash</li>
+          </ul>
+        </div>
+        <div class='column'>
+          <h4>Basic knowledge</h4>
+          <ul>
+            <li>Azure</li>
+            <li>PySpark</li>
+            <li>SQL</li>
+            <li>HTML</li>
+          </ul>
+        </div>
+      </div>
+    </section>
 
-		</main>
-		<footer>
-			<p>Created by @Name  / LinkedIn / 2018 </p>
-		</footer>
-	</body>
+    </section>
+    <section>
+      <h3>Languages</h3>
+        <div>
+	  <p>Polish - native</p>
+	  <p>English - C1</p>
+	  <p>German - B1</p>
+	  <p>Italian - A1</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h3>Education</h3>
+      <article>
+        <div class='school'>
+          <span>Feb 2018-Oct 2019</span> <strong>Warsaw University of Technology</strong>
+        </div>
+        <div class="descrition">
+          Master Degree of Mechanical Engineering
+        </div>
+      </article>
+      <article>
+        <div class='school'>
+          <span>Oct 2014-Feb 2018</span> <strong>Warsaw University of Technology</strong>
+        </div>
+        <div>
+          Bachelor Degree of Aerospace Engineering
+        </div>
+      </article>
+    </section>
+    <section>
+	    <p>Wyrażam zgodę na przetwarzanie moich danych osobowych dla potrzeb niezbędnych do realizacji procesu rekrutacji (zgodnie z Ustawą z dnia 29.08.1997 roku o Ochronie Danych Osobowych; tekst jednolity: Dz. U. 2016 r. poz. 922).</p>
+    </section>
+  </main>
+  <footer>
+    <p>Created by: Krystian Plackowski / 2020 </p>
+  </footer>
+</body>
 </html>
