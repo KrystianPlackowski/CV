@@ -34,7 +34,7 @@ header {
   text-align: center;
   background-image: url('./img/bg.jpg');
   background-size: cover;
-  background-position: fixed;
+  background-position: bottom;
   color: white;
 }
 
@@ -91,6 +91,11 @@ a .fab {
   flex-wrap: wrap;
 }
 
+.course  {
+  %display: flex;
+  align-items:center;
+}
+
 .course .title {
   color: #509e98;
   -ms-flex: 0 0 33.3%;
@@ -110,7 +115,15 @@ a .fab {
 
 .skills .column {
   float: left;
-  width: 33.33%;
+  width: 33.3%;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  flex-flow: column wrap;
+  height: 150px;
 }
 
 .skills .column ul, ul.job-description {
@@ -125,11 +138,17 @@ a .fab {
 
 .school, .job-title {
   text-transform: capitalize;
+  align-items:center;
+  padding: 5px;
+  display: flex;
 }
 
 .school span, .job-title span {
   color: #889499;
   text-decoration: underline;
+  align-items:center;
+  padding: 5px;
+  display: flex;
 }
 
 ul.job-description li:before{
@@ -143,6 +162,27 @@ footer {
  background: #A7B8BF;
  color: white;
  text-align: right;
+}
+
+.icon {
+  %vertical-align: middle;
+  %display: flex;
+  padding-right: 5px;
+  height: 40px;
+}
+
+.box {
+  display: flex;
+  vertical-align: middle;
+  align-items: center;
+  %padding: 5px;
+}
+
+.links {
+  %display: flex;
+  vertical-align: middle;
+  align-items: right;
+  %padding: 5px;
 }
 
 @media only screen and (max-width: 768px) {
